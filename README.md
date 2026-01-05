@@ -12,33 +12,32 @@ The architecture of this repository is designed to document my journey from foun
 
 The repository is organized by domain and complexity. This modular structure allows for independent execution of scripts while maintaining a cohesive learning path.
 
-├── 01-Framework_practice/          # Foundational libraries (Data Engineering & Viz)
-│   ├── numpy/              # Vectorization and linear algebra operations
-│   ├── pandas/             # Data manipulation and ETL pipelines
-│   ├── matplotlib/         # Static plotting and visualizations
-│   └── seaborn/            # Statistical data visualization
+├── 01-Framework_practice/          
+│   ├── numpy/              
+│   ├── pandas/            
+│   ├── matplotlib/         
+│   └── seaborn/            
 │
-├── 02-ML_Projects/          # Scikit-Learn & Statistical Learning
-│   ├── regression/         # Linear, Lasso, Ridge, Polynomial
-│   ├── classification/     # Logistic, SVM, Decision Trees, KNN
-│   ├── clustering/         # K-Means, DBSCAN, Hierarchical
-│   └── dimensionality/     # PCA, t-SNE, LDA
+├── 02-ML_Projects/         
+│   ├── regression/         
+│   ├── classification/    
+│   ├── clustering/         
+│   └── dimensionality/    
 │
-├── 03-Deep-Learning_Projects/       # Neural Networks (PyTorch/TensorFlow)
-│   ├── ann/                # Artificial Neural Networks (MLP)
-│   ├── cnn/                # Convolutional NNs (Computer Vision)
-│   ├── rnn-lstm-gru/       # Sequence Models (NLP/Time Series)
-│   └── transformers/       # Attention mechanisms and modern architectures
+├── 03-Deep-Learning_Projects/       
+│   ├── ann/
+│   ├── cnn/               
+│   ├── rnn-lstm-gru/       
+│   └── transformers/       
+├── 04-ML_algorithm_practice/           
+│   ├── regression/        
+│   ├── classification/    
+│   ├── clustering/        
+│   └── dimensionality/     
 │
-├── 04-ML_algorithm_practice/            # classical ML Solutions
-│   ├── regression/         # Linear, Lasso, Ridge, Polynomial
-│   ├── classification/     # Logistic, SVM, Decision Trees, KNN
-│   ├── clustering/         # K-Means, DBSCAN, Hierarchical
-│   └── dimensionality/     # PCA, t-SNE, LDA
-│
-├── datasets/               # Raw and processed data (ignored by git where possible)
-├── requirements.txt        # Dependencies
-└── main.py                 # Entry point for specific modular scripts
+├── datasets/               
+├── requirements.txt        
+└── main.py                 
 
 
 🛠 Tech Stack
