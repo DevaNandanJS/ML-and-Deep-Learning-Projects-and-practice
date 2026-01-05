@@ -1,6 +1,2 @@
-main.py
-LinearRegression.py
-LogisticRegression.py
-/datasets
+.venv
 __pycache__
-
