@@ -16,24 +16,28 @@ The repository is organized by domain and complexity. This modular structure all
 │   ├── numpy/              
 │   ├── pandas/            
 │   ├── matplotlib/         
-│   └── seaborn/            
+│   └── seaborn/    
+
 │
 ├── 02-ML_Projects/         
 │   ├── regression/         
 │   ├── classification/    
 │   ├── clustering/         
-│   └── dimensionality/    
+│   └── dimensionality/   
+
 │
 ├── 03-Deep-Learning_Projects/       
 │   ├── ann/
 │   ├── cnn/               
 │   ├── rnn-lstm-gru/       
-│   └── transformers/       
+│   └── transformers/    
+
 ├── 04-ML_algorithm_practice/           
 │   ├── regression/        
 │   ├── classification/    
 │   ├── clustering/        
-│   └── dimensionality/     
+│   └── dimensionality/   
+
 │
 ├── datasets/               
 ├── requirements.txt        
@@ -66,10 +70,6 @@ Git installed.
 
 Installation
 
-Clone the repository:
-
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
 
 
 Create a Virtual Environment:
