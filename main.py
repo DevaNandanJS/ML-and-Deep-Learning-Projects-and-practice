@@ -1,23 +1,7 @@
-import numpy as np
-from time import process_time
+from smolagents import LiteLLMModel
 
-a= np.array([(1,2,3,4,5),(6,7,8,9,10)])
-"""
-print (a)
-print(a.shape)
-"""
-b= np.array([(1,2,3,4),(5,6,7,8)], dtype=float)
-
-x= np.zeros((4,4))
-y= np.ones((4,4))
-#print(x+y)
-
-#identity matrix
-c= np.eye(4)
-
-
-
-list_1= [1,2,3,4,5]
-
-np_list= np.asarray(list_1)
-print(np_list.shape, np_list.dtype)
+model = LiteLLMModel(
+    model_id="ollama_chat/qwen2:7b",  # Or try other Ollama-supported models
+    api_base="http://127.0.0.1:11434",  # Default Ollama local server
+    num_ctx=8192,
+)
