@@ -18,4 +18,6 @@ print(diabetes_dataset.shape)
 # understanding the data, statistical measures
 print(diabetes_dataset.describe())
 
-print(f"Value counts of Outcome: {diabetes_dataset['Outcome'].value_counts()}")
+x= diabetes_dataset.drop(columns= "Outcome", axis= 1)
+y= diabetes_dataset["Outcome"]
+
