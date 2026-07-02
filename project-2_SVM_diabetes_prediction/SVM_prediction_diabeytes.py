@@ -18,6 +18,12 @@ print(diabetes_dataset.shape)
 # understanding the data, statistical measures
 print(diabetes_dataset.describe())
 
-x= diabetes_dataset.drop(columns= "Outcome", axis= 1)
-y= diabetes_dataset["Outcome"]
 
+# Data standardization, to make it in a uniform range
+scaler= StandardScaler()
+scaler.fit(x) #fits the data into tha variable
+
+standardized_data = scaler.transform(x)
+
+x= standardized_data
+y= diabetes_dataset["Outcome"]
