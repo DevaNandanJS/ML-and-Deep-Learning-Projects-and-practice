@@ -49,7 +49,7 @@ test_accuracy_predict= accuracy_score(Test_accuracy, y_test)
 print(f"accuracy score of data= {test_accuracy_predict}")
 
 # Making a predictive system 
-input_data = (1,85,66,29,0,26.6,0.351,31)
+input_data = (1,85,66,29,0,26.6,0.351,31    )
 
 input_array= np.asanyarray(input_data)
 
