@@ -6,3 +6,4 @@ graphrag
 matplotlib
 seaborn
 tensorflow
+xgboost

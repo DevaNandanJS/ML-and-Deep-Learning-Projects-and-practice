@@ -61,3 +61,4 @@ std_data= scaler.transform(input_data_reshaped)
 
 prediction= classifier.predict(std_data)
 print(prediction)
+
